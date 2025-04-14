@@ -7,10 +7,7 @@
 		{
 			"Name": "DESN2600Test",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
@@ -28,10 +25,11 @@
 		},
 		{
 			"Name": "FSR3",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
+			"Enabled": false
+		},
+		{
+			"Name": "CascadeToNiagaraConverter",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
